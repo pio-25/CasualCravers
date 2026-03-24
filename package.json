@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "https://pio-25.github.io/CasualCravers",
+  "homepage": "https://pio-25.github.io/casualcravers",
 
   "dependencies": {
     "react": "^19.0.0",
