@@ -6,7 +6,7 @@ const products = [
     price: 500,
     mrp: 1999,
     discount: 50,
-    image: "/images/shirt.jpg",
+    image: process.env.PUBLIC_URL + "/images/shirt.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const products = [
     price: 650,
     mrp: 999,
     discount: 65,
-    image: "/images/neck.jpg",
+    image: process.env.PUBLIC_URL + "/images/neck.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const products = [
     price: 251,
     mrp: 999,
     discount: 74,
-    image: "/images/veirdo.jpg",
+    image: process.env.PUBLIC_URL + "/images/veirdo.jpg",
   },
   {
     id: 4,
@@ -33,79 +33,79 @@ const products = [
     price: 309,
     mrp: 1299,
     discount: 76,
-    image: "/images/cargo.jpg",
+    image: process.env.PUBLIC_URL + "/images/cargo.jpg",
   },
-   {
+  {
     id: 5,
     brand: "GRECIILOOKS",
     name: "Simple, solid cotton sweat shirt",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/gir.jpg",
+    image: process.env.PUBLIC_URL + "/images/gir.jpg",
   },
-   {
+  {
     id: 6,
     brand: "TAGAS",
     name: "Cozy hoodie for chill days or layering.",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/tagas.jpg",
+    image: process.env.PUBLIC_URL + "/images/tagas.jpg",
   },
-   {
+  {
     id: 7,
     brand: "Muvazo",
     name: "Relaxed-fit hooded tee with shorts",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/muvazo.jpg",
+    image: process.env.PUBLIC_URL + "/images/muvazo.jpg",
   },
-   {
+  {
     id: 8,
     brand: "H&M",
     name: "Comfy sweatshirt combo for women",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/h&m.jpg",
+    image: process.env.PUBLIC_URL + "/images/h&m.jpg",
   },
-   {
+  {
     id: 9,
     brand: "zara",
     name: "Zara Men's Regular Fit Denim Jacket",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/zara.jpg",
+    image: process.env.PUBLIC_URL + "/images/zara.jpg",
   },
-   {
+  {
     id: 10,
     brand: "TADKEE",
     name: "Soft two-piece set for women’s casual style.",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/TADKEE.jpg",
+    image: process.env.PUBLIC_URL + "/images/TADKEE.jpg",
   },
-   {
+  {
     id: 11,
     brand: "Lymio",
     name: "Men Solid Zip Neck T-Shirt",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/Lymio.jpg",
+    image: process.env.PUBLIC_URL + "/images/Lymio.jpg",
   },
-   {
+  {
     id: 12,
     brand: "RAYA",
     name: "tylish shirt that can double as a casual overshirt.",
     price: 331,
     mrp: 999,
     discount: 66,
-    image: "/images/raya.jpg",
+    image: process.env.PUBLIC_URL + "/images/raya.jpg",
   }
 ];
 
