@@ -1,0 +1,39 @@
+/* ===== GLOBAL COLOR THEME ===== */
+:root {
+  --bg-color: #f6e3c5;        /* full website background */
+  --text-color: #3a2e2a;     /* main text */
+  --accent-color: #c27c4b;   /* links & buttons */
+}
+
+/* ===== APPLY TO ENTIRE WEBSITE ===== */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  background-color: #000000;   /* BLACK */
+  color: #ffffff;              /* white text */
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.85;
+}

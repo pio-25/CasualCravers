@@ -1,0 +1,17 @@
+.hero {
+  background: linear-gradient(180deg, hsl(219, 84%, 83%));
+  padding: 60px;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+.hero-logo {
+  width: 120px;
+  margin: 20px auto 30px;
+  display: block;
+}

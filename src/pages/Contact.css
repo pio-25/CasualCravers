@@ -1,0 +1,48 @@
+.contact-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.contact-section {
+  margin-bottom: 30px;
+}
+
+.contact-section h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.contact-section p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #e1306c;
+  font-weight: bold;
+}
+
+.instagram-link img {
+  width: 32px;
+  height: 32px;
+}
